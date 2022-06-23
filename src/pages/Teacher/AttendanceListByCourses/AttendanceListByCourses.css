@@ -1,0 +1,74 @@
+:root {
+    --varyDarkBlue: hsl(234, 12%, 34%);
+    --grayishBlue: hsl(229, 6%, 66%);
+    --veryLightGray: hsl(0, 0%, 98%);
+}
+
+.classes-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px 0;
+    max-width: 700px;
+    cursor: auto;
+}
+
+.classes-box {
+    border-top: 3px solid #ccc;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.week {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.week-title {
+    margin: 0;
+}
+
+.attendance-detail {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.date {
+    flex: 1;
+}
+
+.student-info {
+    display: flex;
+    margin: 30px;
+    align-items: center;
+}
+
+.student-information-detail {
+    display: flex;
+    align-items: center;
+}
+
+.student-title {
+    color: var(--varyDarkBlue);
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.student-description {
+    font-weight: 500;
+    color: var(--grayishBlue);
+    margin: 5px;
+}
+
+.user-icon,
+.arrow-icon {
+    color: var(--varyDarkBlue);
+    font-weight: 600;
+    font-size: 25px;
+}

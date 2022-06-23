@@ -1,0 +1,33 @@
+.classes-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px 0;
+    max-width: 700px;
+    cursor: auto;
+}
+
+.classes-box {
+    border-top: 3px solid #ccc;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.week {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.attendance-detail {
+    display: flex;
+    align-items: flex-start;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+.date {
+    flex: 1;
+}

@@ -1,0 +1,60 @@
+.modal-button {
+    width: 100px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.75em;
+    cursor: pointer;
+    text-align: center;
+    padding: 0;
+    outline: none;
+    box-shadow: none;
+}
+
+.modal-button:hover {
+    color: white;
+}
+
+.modal-button:focus {
+    color: white;
+    outline: none;
+    box-shadow: none !important;
+}
+
+.modalQuestion>textarea {
+    border: 2px solid #f1f1f1;
+    resize: none;
+}
+
+.modalQuestion>textarea:focus {
+    outline: none;
+    box-shadow: none !important;
+    border: 2px solid #f1f1f1;
+}
+
+.modalInputEmail>input:focus {
+    outline: none;
+    box-shadow: none !important;
+}
+
+.modalInputEmail>label {
+    text-align: center;
+}
+
+.closeButton>button {
+    height: 50px;
+    width: 50px;
+    font-size: 30px !important;
+}
+
+.closeButton>button:focus {
+    outline: none;
+    box-shadow: none !important;
+}
+
+.scroll .scroll-box-track.vertical {
+    width: 3px;
+}

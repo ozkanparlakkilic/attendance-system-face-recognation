@@ -1,0 +1,64 @@
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --varyDarkBlue: hsl(234, 12%, 34%);
+    --grayishBlue: hsl(229, 6%, 66%);
+    --veryLightGray: hsl(0, 0%, 98%);
+    --weight1: 200;
+    --weight2: 400;
+    --weight3: 600;
+}
+
+.profile-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+    max-width: 700px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    border: 5px solid var(--cyan);
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px;
+}
+
+.profile-information-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile-information-title {
+    font-size: 20px;
+    margin: 5px;
+    font-weight: var(--weight3);
+}
+
+.profile-information {
+    font-size: 20px;
+    font-weight: var(--weight1);
+}
+
+.classes-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px 0;
+}
+
+.classes-box {
+    border-top: 3px solid #ccc;
+}
