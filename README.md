@@ -20,10 +20,10 @@
 
 ## Installation and Run
 
-1 - Git clone https://github.com/ozkanparlakkilic/attendance-system-face-recognation.git
-2 - Terminal command : cd ./attendance-system-face-recognation
-3 - Install node modules : npm install
-4 - npm start
+- Git clone https://github.com/ozkanparlakkilic/attendance-system-face-recognation.git
+- Terminal command : cd ./attendance-system-face-recognation
+- Install node modules : npm install
+- npm start
 
 ## Project Description 
 
